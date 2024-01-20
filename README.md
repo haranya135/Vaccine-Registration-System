@@ -15,6 +15,7 @@ This repository contains the source code for Vaccine Registration System in C.
      char state[20], dis[20], hos[40], date[12], hour[6]: Global variables related to the vaccination venue, date, and time.
     
 3.Functions:
+
      void getUserdetails(): Collects candidate details such as name, gender, date of birth, age, Aadhaar number, email ID, mobile number, and the number of vaccine doses. It also generates a registration ID and calls the venue() function.
      
      void venue(): Asks the user to choose a vaccination venue from a list of hospitals and provides options to enter the date and time. It then calls the printdetails() function.
@@ -32,6 +33,7 @@ This repository contains the source code for Vaccine Registration System in C.
      void details(): Calls the addata() and printdetails() functions to add details to the file and print them.
 
 4.Main Function:
+
      Displays a menu with options to register for a vaccine, check the status, or exit.
      
      Calls the respective functions based on the user's choice.

@@ -4,9 +4,9 @@ This repository contains the source code for Vaccine Registration System in C.
 
 1.Structures:
 
-     -->struct data: Represents information about a candidate's registration, including registration ID, name, age, gender, date of birth, Aadhaar number, mobile number, email ID, and number of vaccine doses.
+     #struct data: Represents information about a candidate's registration, including registration ID, name, age, gender, date of birth, Aadhaar number, mobile number, email ID, and number of vaccine doses.
      
-     -->struct accountid: Represents the user account ID and password.
+     #struct accountid: Represents the user account ID and password.
      
 2.Global Variables:
 
